@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Family Album</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div>
+          <a class="navbar-brand" href="#">Our_Family</a>
+        </div>
+        <ul class="navbar-nav ml-auto">
+          <li><a href="#">Reports</a></li>
+          <li><a href="#">History</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Our_Family</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- float left -->
+          <ul class="navbar-nav ms-md-auto"> 
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <div class="left-liks"></div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <main>
+
+      
+      
+      <section class="container">
+        <!-- title -->
+        <div class="title">
+          <h2>Fam Team</h2>
+          <div class="underline"></div>
+        </div>
+        <!-- review -->
+        <article class="review">
+          <div class="img-container">
+            <img src="poppy.jpg" id="person-img" alt="" />
+          </div>
+          <h4 id="author">Bob</h4>
+          <p id="job">the boss</p>
+          <p id="info">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Officiis quaerat nemo voluptatibus nesciunt ullam fuga totam. 
+            Laborum magnam optio at deserunt, 
+            labore odio dignissimos soluta dolorum sequi, quia qui iste.
+          </p>
+          <!-- prev-next buttons -->
+          <div class="button-container">
+            <button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <!-- random button -->
+          <button class="random-btn">surprise me</button>
+        </article>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="app.js" defer" attribute></script>
+  </body>
+</html>
+

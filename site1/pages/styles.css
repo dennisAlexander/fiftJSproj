@@ -1,0 +1,70 @@
+
+body {
+    min-height: 100vh;
+}
+
+main {
+    display: block;
+    margin: 23%;
+    
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+}
+
+.text {
+    display: flex;
+    max-width: 70%;
+    margin: 10% 12% 10% 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 13%;
+    margin-top: 5%;
+    font-size: 100px;
+
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  ul li {
+      display: flex;
+      margin: 3%;
+      font-size: 23px;
+  }
+
+  a {
+      text-decoration: none;
+      color: rgba(46, 49, 49, 0.5);
+  }
+
+  a:hover {
+      text-shadow: 1px 1px #ccc;
+      color: rgba(46, 49, 49, 0.8);
+  }
+
+  @media screen and (max-width: 575px) {
+    .table {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        
+        
+      }
+      
+      .column {
+        flex-direction: column;
+      }
+
+  }

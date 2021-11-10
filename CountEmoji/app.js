@@ -929,7 +929,7 @@ const btn = document.querySelector('.btn');
         //     value.innerHTML = newEmoji;
         // }, 3000);
         
-            })
+            });
         
 
     
